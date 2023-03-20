@@ -1,0 +1,25 @@
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{   
+    "name":"rahul",
+    "username":"rahul123",
+    "password": "rahul@456",
+    "gender": "Male",
+    "location":"hyderabad"
+}
+
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username":"rahul123",
+    "password": "rahul@456"
+}
+
+//TRY new username both login and create APIS then its works otherwise get out already username exist beacuse i already used it , so please change username and run the code and start server and call the response click send request both then it will work properlly.
